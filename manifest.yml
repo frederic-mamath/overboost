@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: overboost-hello-world-panel
+      function: main
+      title: Overboost V0.2
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/d429f4a0-3859-42a8-bc39-b7499a94d6c5
+permissions:
+  scopes:
+    - read:jira-work
